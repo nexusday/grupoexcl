@@ -8,6 +8,8 @@ import fetch from 'node-fetch'
 
 import { handleAntiSystems } from './lib/antiHandlers.js'
 import { handleGroupEvents } from './lib/event.js'
+import { verificarRespuesta, hayJuegoActivo } from './lib/adivinanzas.js'
+import { handleIA } from './lib/ia.js'
 
 const { proto } = (await import('@whiskeysockets/baileys')).default
 const isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -31,6 +33,15 @@ if (m.messageStubType) return
 m.exp = 0
 m.limit = false
 
+if (global.db.data.muted && global.db.data.muted[m.sender]) {
+  try {
+    await this.sendMessage(m.chat, { delete: m.key })
+  } catch (e) {
+    console.error('Error deleting muted message:', e)
+  }
+  return
+}
+
 try {  
   let user = global.db.data.users[m.sender] ||= {}  
   if (!isNumber(user.exp)) user.exp = 0  
@@ -41,23 +52,13 @@ try {
     user.registered = true
     user.name = m.name || m.pushName || 'Usuario'
     user.regTime = Date.now()
-    user.age = -1
-    user.level = 0
-    user.coins = 100 
     user.exp = 0
-    user.genre = 'No establecido'
-    user.birth = 'No registrado'
-    user.desc = 'Sin descripción'
-    user.favourite = 'No establecido'
-    user.partner = ''
     user.banned = false
     user.prem = false    
     
 
   }  
   if (!('banned' in user)) user.banned = false  
-  if (!isNumber(user.level)) user.level = 0  
-  if (!isNumber(user.coins)) user.coins = 0  
 
   let chat = global.db.data.chats[m.chat] ||= {}  
   if (!('isBanned' in chat)) chat.isBanned = false  
@@ -307,6 +308,20 @@ for (let plugin of processedPlugins) {
 await handleAntiSystems(m, this, isAdmin, isOwner, isRAdmin, isBotAdmin, isPrems, commandExecuted)
 
 await handleGroupEvents(m, this, isAdmin, isBotAdmin, isOwner, participants)
+
+if (hayJuegoActivo(m.chat) && verificarRespuesta(m.chat, m.text, m.sender)) {
+  this.sendMessage(m.chat, {
+    text: `¡Felicidades @${m.sender.split('@')[0]}! Acertaste la respuesta. 🎉`,
+    contextInfo: {
+      ...rcanal.contextInfo,
+      mentionedJid: [m.sender]
+    }
+  }, { quoted: m })
+}
+
+if (global.db.data.settings.iaMode && !commandExecuted && !m.isBaileys && !m.fromMe) {
+  await handleIA(m, this, isAdmin)
+}
 
 global.dfail = (type, m, conn) => {  
   const msg = {  

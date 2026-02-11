@@ -28,6 +28,8 @@ let handler = async (m, { usedPrefix }) => {
     `${usedPrefix}warn @usuario <motivo>`,
     `${usedPrefix}delwarn @usuario`,
     `${usedPrefix}warnings @usuario`,
+    `${usedPrefix}mute @usuario`,
+    `${usedPrefix}unmute @usuario`,
     `${usedPrefix}tag`,
     `${usedPrefix}temp <mensaje> <tiempo>`,
     `${usedPrefix}open`,

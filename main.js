@@ -113,15 +113,26 @@ global.loadDatabase = async function loadDatabase() {
     stats: {},
     msgs: {},
     sticker: {},
-    settings: {},
+    settings: {
+      self: false,
+      autoread: true,
+      restrict: false,
+      antiCall: false,
+      antiSpam: false,
+      iaMode: false,
+      ...(global.db.data.settings || {}),
+    },
     botGroups: {},
     antiImg: {},
     bienvenidas: {},
     publicaciones: {},
+    muted: {},
     ...(global.db.data || {}),
   }
   global.db.chain = lodash.chain(global.db.data) 
 }
+
+global.adivinanzas = JSON.parse(readFileSync('storage/databases/adivinanzas.json'))
 
 global.authFile = `sessions`
 const { state, saveCreds } = await useMultiFileAuthState(global.authFile)

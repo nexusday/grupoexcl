@@ -1,0 +1,768 @@
+
+[
+  {
+    "pregunta": "¿Qué líder histórico liberó a los esclavos en EE.UU.?",
+    "opciones": {
+      "A": "Abraham Lincoln",
+      "B": "George Washington",
+      "C": "Martin Luther King"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué muro dividió Berlín durante la Guerra Fría?",
+    "opciones": {
+      "A": "Muro de Berlín",
+      "B": "Gran Muralla China",
+      "C": "Muro de las Lamentaciones"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué explorador descubrió América en 1492?",
+    "opciones": {
+      "A": "Cristóbal Colón",
+      "B": "Fernando Magallanes",
+      "C": "Vasco da Gama"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué emperador romano construyó el Coliseo?",
+    "opciones": {
+      "A": "Vespasiano",
+      "B": "Nerón",
+      "C": "Trajano"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué reina inglesa fue decapitada en 1536?",
+    "opciones": {
+      "A": "Ana Bolena",
+      "B": "María Estuardo",
+      "C": "Isabel I"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué batalla marcó el fin del Imperio Romano de Occidente?",
+    "opciones": {
+      "A": "Batalla de Adrianópolis",
+      "B": "Batalla de las Termópilas",
+      "C": "Batalla de Zama"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué faraón egipcio construyó la Gran Pirámide?",
+    "opciones": {
+      "A": "Keops",
+      "B": "Tutankamón",
+      "C": "Ramsés II"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué revolución comenzó en Francia en 1789?",
+    "opciones": {
+      "A": "Revolución Francesa",
+      "B": "Revolución Industrial",
+      "C": "Revolución Americana"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué tratado terminó la Primera Guerra Mundial?",
+    "opciones": {
+      "A": "Tratado de Versalles",
+      "B": "Tratado de París",
+      "C": "Tratado de Viena"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué líder soviético inició la perestroika?",
+    "opciones": {
+      "A": "Mikhail Gorbachev",
+      "B": "Vladimir Lenin",
+      "C": "Joseph Stalin"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película de Disney tiene una princesa llamada Ariel?",
+    "opciones": {
+      "A": "La Sirenita",
+      "B": "Cenicienta",
+      "C": "Bella Durmiente"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué superhéroe vive en Gotham City?",
+    "opciones": {
+      "A": "Batman",
+      "B": "Superman",
+      "C": "Spiderman"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película tiene al personaje de Jack Sparrow?",
+    "opciones": {
+      "A": "Piratas del Caribe",
+      "B": "El Señor de los Anillos",
+      "C": "Harry Potter"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué saga de películas tiene a Darth Vader?",
+    "opciones": {
+      "A": "Star Wars",
+      "B": "Star Trek",
+      "C": "Indiana Jones"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película animada tiene al león Simba?",
+    "opciones": {
+      "A": "El Rey León",
+      "B": "El Libro de la Selva",
+      "C": "Toy Story"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película de terror tiene a Freddy Krueger?",
+    "opciones": {
+      "A": "Pesadilla en Elm Street",
+      "B": "Viernes 13",
+      "C": "Halloween"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película tiene a Neo y la Matrix?",
+    "opciones": {
+      "A": "The Matrix",
+      "B": "Blade Runner",
+      "C": "Inception"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película de Pixar tiene autos que hablan?",
+    "opciones": {
+      "A": "Cars",
+      "B": "Finding Nemo",
+      "C": "Monsters Inc"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película tiene a Tony Stark como Iron Man?",
+    "opciones": {
+      "A": "Iron Man",
+      "B": "Captain America",
+      "C": "Thor"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué película de Marvel tiene a los Vengadores?",
+    "opciones": {
+      "A": "Avengers",
+      "B": "X-Men",
+      "C": "Fantastic Four"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de mensajería es propiedad de Meta?",
+    "opciones": {
+      "A": "WhatsApp",
+      "B": "Telegram",
+      "C": "Signal"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de video es propiedad de Google?",
+    "opciones": {
+      "A": "YouTube",
+      "B": "TikTok",
+      "C": "Vimeo"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de mapas es gratuita y popular?",
+    "opciones": {
+      "A": "Google Maps",
+      "B": "Waze",
+      "C": "Apple Maps"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de redes sociales tiene historias y reels?",
+    "opciones": {
+      "A": "Instagram",
+      "B": "Facebook",
+      "C": "Twitter"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de música es propiedad de Spotify?",
+    "opciones": {
+      "A": "Spotify",
+      "B": "Apple Music",
+      "C": "SoundCloud"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de navegación usa GPS?",
+    "opciones": {
+      "A": "Waze",
+      "B": "Google Maps",
+      "C": "TomTom"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de edición de fotos es popular?",
+    "opciones": {
+      "A": "Photoshop",
+      "B": "GIMP",
+      "C": "Lightroom"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de llamadas de video es de Microsoft?",
+    "opciones": {
+      "A": "Teams",
+      "B": "Zoom",
+      "C": "Skype"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de notas es simple y gratis?",
+    "opciones": {
+      "A": "Evernote",
+      "B": "OneNote",
+      "C": "Notion"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué app de traductor es de Google?",
+    "opciones": {
+      "A": "Google Translate",
+      "B": "DeepL",
+      "C": "Bing Translator"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego tiene a Mario y Luigi?",
+    "opciones": {
+      "A": "Super Mario",
+      "B": "Sonic",
+      "C": "Pac-Man"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de estrategia tiene aldeas y bárbaros?",
+    "opciones": {
+      "A": "Clash of Clans",
+      "B": "Fortnite",
+      "C": "Among Us"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de pelea tiene personajes como Ryu y Ken?",
+    "opciones": {
+      "A": "Street Fighter",
+      "B": "Mortal Kombat",
+      "C": "Tekken"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego tiene a Link y Zelda?",
+    "opciones": {
+      "A": "The Legend of Zelda",
+      "B": "Final Fantasy",
+      "C": "Kingdom Hearts"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de carreras tiene karts y power-ups?",
+    "opciones": {
+      "A": "Mario Kart",
+      "B": "Gran Turismo",
+      "C": "Need for Speed"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de aventura tiene a Lara Croft?",
+    "opciones": {
+      "A": "Tomb Raider",
+      "B": "Uncharted",
+      "C": "Assassin's Creed"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de disparos tiene zombies?",
+    "opciones": {
+      "A": "Call of Duty",
+      "B": "Battlefield",
+      "C": "Counter-Strike"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de puzzle tiene bloques cayendo?",
+    "opciones": {
+      "A": "Tetris",
+      "B": "Puzzle Bobble",
+      "C": "Bejeweled"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de mundo abierto tiene dragones?",
+    "opciones": {
+      "A": "The Elder Scrolls",
+      "B": "The Witcher",
+      "C": "Dragon Age"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué juego de carreras tiene autos realistas?",
+    "opciones": {
+      "A": "Gran Turismo",
+      "B": "Forza Motorsport",
+      "C": "Mario Kart"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué deporte se juega con una pelota y una red?",
+    "opciones": {
+      "A": "Tenis",
+      "B": "Voleibol",
+      "C": "Baloncesto"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué deporte tiene 11 jugadores por equipo?",
+    "opciones": {
+      "A": "Fútbol",
+      "B": "Baloncesto",
+      "C": "Béisbol"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué deporte se practica en el hielo con patines?",
+    "opciones": {
+      "A": "Hockey",
+      "B": "Patinaje artístico",
+      "C": "Snowboarding"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué deporte tiene saltos y giros en el aire?",
+    "opciones": {
+      "A": "Gimnasia",
+      "B": "Salto de esquí",
+      "C": "Surf"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué deporte se juega en un campo con porterías?",
+    "opciones": {
+      "A": "Baloncesto",
+      "B": "Fútbol americano",
+      "C": "Críquet"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué animal es conocido como el rey de la selva?",
+    "opciones": {
+      "A": "León",
+      "B": "Tigre",
+      "C": "Elefante"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué animal vive en el Ártico y tiene colmillos largos?",
+    "opciones": {
+      "A": "Morsa",
+      "B": "Foca",
+      "C": "Pingüino"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué animal es el más rápido del mundo?",
+    "opciones": {
+      "A": "Guepardo",
+      "B": "Leopardo",
+      "C": "Lobo"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué animal tiene rayas y es de la familia de los équidos?",
+    "opciones": {
+      "A": "Cebra",
+      "B": "Caballo",
+      "C": "Asno"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué animal es un marsupial y salta?",
+    "opciones": {
+      "A": "Canguro",
+      "B": "Koala",
+      "C": "Wombat"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué país es famoso por su Torre Eiffel?",
+    "opciones": {
+      "A": "Francia",
+      "B": "Italia",
+      "C": "España"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué país tiene la Gran Muralla?",
+    "opciones": {
+      "A": "China",
+      "B": "India",
+      "C": "Japón"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué país es una isla y tiene kiwis?",
+    "opciones": {
+      "A": "Nueva Zelanda",
+      "B": "Australia",
+      "C": "Isla de Pascua"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué país es conocido por sus pirámides?",
+    "opciones": {
+      "A": "Egipto",
+      "B": "México",
+      "C": "Perú"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué país tiene la Estatua de la Libertad?",
+    "opciones": {
+      "A": "Estados Unidos",
+      "B": "Francia",
+      "C": "Reino Unido"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué científico descubrió la gravedad?",
+    "opciones": {
+      "A": "Isaac Newton",
+      "B": "Albert Einstein",
+      "C": "Galileo Galilei"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué científico inventó la bombilla?",
+    "opciones": {
+      "A": "Thomas Edison",
+      "B": "Nikola Tesla",
+      "C": "Alexander Graham Bell"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué científico propuso la teoría de la evolución?",
+    "opciones": {
+      "A": "Charles Darwin",
+      "B": "Gregor Mendel",
+      "C": "Louis Pasteur"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué científico creó la tabla periódica?",
+    "opciones": {
+      "A": "Dmitri Mendeleev",
+      "B": "Marie Curie",
+      "C": "Pierre Curie"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+    "opciones": {
+      "A": "Albert Einstein",
+      "B": "Stephen Hawking",
+      "C": "Richard Feynman"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué serie de TV tiene dragones y tronos?",
+    "opciones": {
+      "A": "Game of Thrones",
+      "B": "The Witcher",
+      "C": "Dragon Ball"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué serie tiene a Walter White como protagonista?",
+    "opciones": {
+      "A": "Breaking Bad",
+      "B": "The Sopranos",
+      "C": "Narcos"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué serie de animación tiene a Rick y Morty?",
+    "opciones": {
+      "A": "Rick and Morty",
+      "B": "Family Guy",
+      "C": "The Simpsons"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué serie tiene superhéroes y la Justice League?",
+    "opciones": {
+      "A": "The Flash",
+      "B": "Arrow",
+      "C": "Supergirl"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué serie de terror tiene a los Walking Dead?",
+    "opciones": {
+      "A": "The Walking Dead",
+      "B": "Fear the Walking Dead",
+      "C": "iZombie"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué libro tiene a Harry Potter?",
+    "opciones": {
+      "A": "Harry Potter",
+      "B": "Percy Jackson",
+      "C": "El Hobbit"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué libro tiene a Sherlock Holmes?",
+    "opciones": {
+      "A": "Sherlock Holmes",
+      "B": "Agatha Christie",
+      "C": "Drácula"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué libro tiene a Frodo y el Anillo Único?",
+    "opciones": {
+      "A": "El Señor de los Anillos",
+      "B": "El Hobbit",
+      "C": "Las Crónicas de Narnia"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué libro tiene a Katniss Everdeen?",
+    "opciones": {
+      "A": "Los Juegos del Hambre",
+      "B": "Divergente",
+      "C": "El corredor del laberinto"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué libro tiene a Jack y Rose en el Titanic?",
+    "opciones": {
+      "A": "Titanic",
+      "B": "Poseidón",
+      "C": "El hundimiento del Titanic"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué comida italiana es plana y redonda?",
+    "opciones": {
+      "A": "Pizza",
+      "B": "Pasta",
+      "C": "Risotto"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué comida española es un plato de arroz con mariscos?",
+    "opciones": {
+      "A": "Paella",
+      "B": "Gazpacho",
+      "C": "Tortilla española"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué comida mexicana son tortillas con carne?",
+    "opciones": {
+      "A": "Tacos",
+      "B": "Enchiladas",
+      "C": "Quesadillas"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué comida japonesa son rollos de arroz?",
+    "opciones": {
+      "A": "Sushi",
+      "B": "Ramen",
+      "C": "Tempura"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué comida francesa son caracoles?",
+    "opciones": {
+      "A": "Escargot",
+      "B": "Foie gras",
+      "C": "Ratatouille"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué instrumento musical tiene teclas blancas y negras?",
+    "opciones": {
+      "A": "Piano",
+      "B": "Guitarra",
+      "C": "Violín"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué instrumento tiene cuerdas y se toca con arco?",
+    "opciones": {
+      "A": "Violín",
+      "B": "Piano",
+      "C": "Flauta"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué instrumento es de viento y tiene válvulas?",
+    "opciones": {
+      "A": "Trompeta",
+      "B": "Saxofón",
+      "C": "Clarinete"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué instrumento africano es un tambor?",
+    "opciones": {
+      "A": "Djembé",
+      "B": "Bongo",
+      "C": "Conga"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué instrumento es electrónico y se usa en DJ?",
+    "opciones": {
+      "A": "Sintetizador",
+      "B": "Guitarra eléctrica",
+      "C": "Bajo"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué planeta es conocido como el planeta rojo?",
+    "opciones": {
+      "A": "Marte",
+      "B": "Venus",
+      "C": "Júpiter"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué planeta tiene anillos visibles?",
+    "opciones": {
+      "A": "Saturno",
+      "B": "Urano",
+      "C": "Neptuno"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué planeta es el más cercano al Sol?",
+    "opciones": {
+      "A": "Mercurio",
+      "B": "Venus",
+      "C": "Tierra"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué planeta es el más grande del sistema solar?",
+    "opciones": {
+      "A": "Júpiter",
+      "B": "Saturno",
+      "C": "Neptuno"
+    },
+    "respuesta": "A"
+  },
+  {
+    "pregunta": "¿Qué planeta es azul y tiene vida?",
+    "opciones": {
+      "A": "Tierra",
+      "B": "Neptuno",
+      "C": "Urano"
+    },
+    "respuesta": "A"
+  }
+]
