@@ -2,14 +2,14 @@ import { readFileSync, watchFile, unwatchFile } from 'fs'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51921487184', 'X Ventas', true],
+  ['51965837265', 'Tio Dox', true],
   ['51901437507', 'Sunkovv', true],
 ]
 
 
 global.ownerLid = [
-  ['114263544885392', 'sun', true],
-  ['182425145614346', 'Sunkovv', true],
+  ['114263544885392', 'Sunkovv', true],
+  ['48567993520174', 'Tio Dox', true],
 ]
 
 global.sessions = 'Sessions'
