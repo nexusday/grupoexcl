@@ -8,7 +8,6 @@ import fetch from 'node-fetch'
 
 import { handleAntiSystems } from './lib/antiHandlers.js'
 import { handleGroupEvents } from './lib/event.js'
-import { verificarRespuesta, hayJuegoActivo } from './lib/adivinanzas.js'
 import { handleIA } from './lib/ia.js'
 
 const { proto } = (await import('@whiskeysockets/baileys')).default
@@ -58,15 +57,6 @@ try {
     
 
   }  
-  if (!('banned' in user)) user.banned = false  
-
-  let chat = global.db.data.chats[m.chat] ||= {}  
-  if (!('isBanned' in chat)) chat.isBanned = false  
-  if (!('bienvenida' in chat)) chat.bienvenida = true  
-  if (!('antiLink' in chat)) chat.antiLink = false  
-  if (!('onlyLatinos' in chat)) chat.onlyLatinos = false  
-  if (!('nsfw' in chat)) chat.nsfw = false  
-  if (!isNumber(chat.expired)) chat.expired = 0  
 
   let settings = global.db.data.settings[this.user.jid] ||= {}  
   if (!('self' in settings)) settings.self = false  
@@ -309,17 +299,7 @@ await handleAntiSystems(m, this, isAdmin, isOwner, isRAdmin, isBotAdmin, isPrems
 
 await handleGroupEvents(m, this, isAdmin, isBotAdmin, isOwner, participants)
 
-if (hayJuegoActivo(m.chat) && verificarRespuesta(m.chat, m.text, m.sender)) {
-  this.sendMessage(m.chat, {
-    text: `¡Felicidades @${m.sender.split('@')[0]}! Acertaste la respuesta. 🎉`,
-    contextInfo: {
-      ...rcanal.contextInfo,
-      mentionedJid: [m.sender]
-    }
-  }, { quoted: m })
-}
-
-if (global.db.data.settings.iaMode && !commandExecuted && !m.isBaileys && !m.fromMe) {
+if ( (!m.isGroup || global.db.data.settings.iaMode) && !commandExecuted && !m.isBaileys && !m.fromMe ) {
   await handleIA(m, this, isAdmin)
 }
 

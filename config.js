@@ -1,16 +1,15 @@
-import { watchFile, unwatchFile } from 'fs' 
-import chalk from 'chalk'
+import { readFileSync, watchFile, unwatchFile } from 'fs'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51918752210', 'X Ventas', true],
+  ['51921487184', 'X Ventas', true],
   ['51901437507', 'Sunkovv', true],
 ]
 
 
 global.ownerLid = [
-  ['279946756927590', 'X Ventas', true],
-  ['114263544885392', 'Sunkovv', true],
+  ['114263544885392', 'sun', true],
+  ['182425145614346', 'Sunkovv', true],
 ]
 
 global.sessions = 'Sessions'
@@ -20,10 +19,12 @@ global.AFBots = true
 global.grupos = true
 
 global.packname = ''
-global.namebot = 'LA DRAKO SHOP'
-global.author = 'Drako'
+global.namebot = ''
+global.author = ''
 global.moneda = ''
 
+
+global.iaPrompt = JSON.parse(readFileSync('./prompt.json')).prompt
 
 global.canal = ''
 

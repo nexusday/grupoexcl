@@ -106,7 +106,7 @@ global.loadDatabase = async function loadDatabase() {
   if (global.db.data !== null) return
   global.db.READ = true
   await global.db.read().catch(console.error)
-  global.db.READ = null
+  const existingData = global.db.data || {}
   global.db.data = {
     users: {},
     chats: {},
@@ -114,25 +114,12 @@ global.loadDatabase = async function loadDatabase() {
     msgs: {},
     sticker: {},
     settings: {
-      self: false,
-      autoread: true,
-      restrict: false,
-      antiCall: false,
-      antiSpam: false,
-      iaMode: false,
-      ...(global.db.data.settings || {}),
+      ...(existingData.settings || {}),
     },
-    botGroups: {},
-    antiImg: {},
-    bienvenidas: {},
-    publicaciones: {},
-    muted: {},
-    ...(global.db.data || {}),
+    ...existingData,
   }
   global.db.chain = lodash.chain(global.db.data) 
 }
-
-global.adivinanzas = JSON.parse(readFileSync('storage/databases/adivinanzas.json'))
 
 global.authFile = `sessions`
 const { state, saveCreds } = await useMultiFileAuthState(global.authFile)
